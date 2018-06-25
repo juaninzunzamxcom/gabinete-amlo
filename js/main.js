@@ -1,4 +1,6 @@
 
+
+
 const card1 = document.querySelector('#tarjeta1');
 
 card1.addEventListener( 'click', function() {

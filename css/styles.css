@@ -182,17 +182,31 @@ header .jumbotron {
 }
 
 .card-back .card-text {
-  line-height: 24px !important;
+  line-height: 32px !important;
 }
 
 
 
 
 
+@media only screen and (max-width: 1240px) {
+  .gabinete .row {
+    height: 920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
-
-
+@media only screen and (max-width: 992px) {
+  .gabinete .row {
+    height: 920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 
@@ -214,9 +228,7 @@ header .jumbotron {
 
 }
 
-@media only screen and (max-width: 992px) {
 
-}
 
 
 
