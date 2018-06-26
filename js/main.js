@@ -24,7 +24,7 @@ card4.addEventListener( 'click', function() {
 
 var cards = document.getElementsByClassName('tarjeta');
 
-for(i = 0;i < cards.length; i++) {
+for(i = 0; i < cards.length; i++) {
   var card = cards[i];
   card.addEventListener( 'click', function() {
     this.classList.toggle('is-flipped');
